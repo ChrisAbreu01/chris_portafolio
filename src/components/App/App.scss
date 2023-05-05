@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css?family=Public+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+
+* {
+  font-family: 'Comfortaa' cursive;
+  letter-spacing: 0.5px;
+  font-size: 18px;
+
+    text-decoration: none;
+  
+
+  @media (max-width:1000px){ 
+    font-size: 16px;
+  }
+
+}
+
+
+$blue: #00ABFF;
+
+@mixin container($max-width) {
+  margin: 0 auto;
+  width: 80%;
+  max-width: $max-width;
+
+  @media (max-width: 700px) {
+    width: 90%;
+  }
+}
+
+.sm-container {
+  @include container(1200px)
+}
+
+.container {
+  @include container(1300px);
+  z-index: 1;
+}
+
+.lg-container {
+  @include container(1600px)
+}
+
+.App {
+  position: relative;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  background: #c3c3c3aa
+}
+
+::-webkit-scrollbar:hover {
+  padding: 5px
+}
+
+::-webkit-scrollbar-thumb {
+  background: grey;
+  border-radius: 10px;
+}
+
+.no-scroll {
+  overflow-y: hidden;
+  overflow-x: hidden;
+  overflow: hidden;
+}
+
+
+.dark-mode {
+  background: #121212;
+  transition: background .5s;
+  color: #f1f1f1;
+}
+
+
+.clear-mode {
+  background: white;
+  transition: background .5s;
+  color: #525252;
+}
+
+.Contact-bar {
+  min-height: 224px;
+  position: fixed;
+  bottom: calc(50vh - 110px);
+  left: 15px;
+  display: flex;
+  flex-direction: column;
+  background: #262626;
+  border-radius: 30px;
+  box-shadow: 3px 3px 6px #00000042;
+
+  i {
+    outline: none;
+    padding: 20px;
+    color: #00ABFF;
+
+    &:hover {
+      color: white
+    }
+
+    &:hover .contactName {
+      visibility: visible
+    }
+  }
+}
+
+.text-2 {
+  font-size: 1rem;
+  line-height: 2rem;
+  letter-spacing: .5px;
+  font-family: 'Public Sans', sans-serif;
+}
+
+.contactName {
+  position: absolute;
+  margin-top: 15px;
+  background: white;
+  transform: translateX(15px);
+  padding: 5px;
+  box-shadow: 1px 1px 3px #00000060;
+  border-radius: 3px;
+  visibility: hidden;
+
+  &:before {
+    content: '';
+    background: red;
+    height: 150px;
+    width: 150px;
+    top: 50%;
+    left: 50%;
+    z-index: 1000;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .Contact-bar {
+    min-height: 56px;
+    min-width: 56px;
+    justify-content: center;
+    flex-direction: row;
+    bottom: 3vh;
+    max-width: 250px;
+    margin: 0 auto;
+    left: 90%;
+    transform: translateX(-50%);
+    z-index: 90;
+
+    i:hover {
+      color: #00ABFF
+    }
+  }
+
+  .hide-icon {
+    display: none
+  }
+}
