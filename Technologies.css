@@ -1,0 +1,90 @@
+.Skills {
+  padding: 100px 0 20px;
+}
+.Skills-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Skills h1 {
+  font-size: 3.5rem;
+  position: relative;
+}
+.Skills h1::after {
+  content: "";
+  position: absolute;
+  bottom: -15px;
+  right: 50px;
+  height: 5px;
+  width: 65px;
+  background: blue;
+  border-radius: 20px;
+}
+.Skills p {
+  text-align: center;
+}
+.Skills .grid-skills {
+  padding: 50px 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  grid-gap: 15px;
+}
+.Skills .grid-skills .skill-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  background: #1b262c;
+  border-radius: 10px;
+  cursor: default;
+}
+.Skills .grid-skills .skill-box i {
+  margin-right: 8px;
+  color: white;
+}
+.Skills .grid-skills .skill-box p {
+  margin: 0;
+  padding: 10px;
+  color: white;
+  text-transform: capitalize;
+  letter-spacing: 0.5px;
+  list-style: circle;
+}
+.Skills .grid-skills .skill-box.grow {
+  transition: all 0.2s ease-in-out;
+}
+.Skills .grid-skills .skill-box.grow:hover {
+  transform: scale(1.1);
+}
+@media screen and (max-width: 425px) {
+  .Skills .grid-skills {
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    padding: 50px 0;
+    grid-gap: 10px;
+  }
+  .Skills .grid-skills .skill-box:hover {
+    transform: none;
+  }
+  .Skills .grid-skills .skill-box p {
+    font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .Skills h1 {
+    font-size: 2.5rem;
+  }
+  .Skills h1::after {
+    transform: translate(-50%, 0);
+    right: 0px;
+    height: 5px;
+    width: 55px;
+    background: blue;
+    border-radius: 20px;
+  }
+  .Skills p {
+    font-size: 1rem;
+    margin-bottom: 0px;
+  }
+}

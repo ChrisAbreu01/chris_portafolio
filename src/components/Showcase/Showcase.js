@@ -1,13 +1,13 @@
 import React from "react";
 import "./Showcase.scss";
-import waves from "../../images/clouds.jpg";
+import background from "../../images/showcasebackground.png";
 
 const Showcase = ({ isDarkMode }) => {
   const shouldUseWhiteGradiantBg = isDarkMode ? "useWhiteGradiantBg" : "";
   return (
     <div className="Showcase">
       <div className="Showcase-container ">
-        <img src={waves} alt="clouds" className="showcase-background" />
+        <img src={background} alt="clouds" className="showcase-background" />
         <div className="container Showcase-info">
           <h2 className="wow fadeInDown" data-wow-delay="1.2s">
             Full-Stack Developer

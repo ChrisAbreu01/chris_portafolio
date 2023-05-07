@@ -7,7 +7,8 @@ import WOW from "wowjs";
 import Header from "../Header/Header";
 import Showcase from "../Showcase/Showcase";
 // import About from "./Components/About";
-// import Skills from "./Components/Skills";
+import Technologies from "../Technologies/Tecnologies";
+import Projects from "../Projects/Projects";
 // import Projects from "./Components/Projects";
 // import Contact from "./Components/Contact";
 // import Footer from "./Components/Footer";
@@ -38,8 +39,9 @@ const App = () => {
         isDarkMode={isDarkMode}
       />
       <Showcase isDarkMode={isDarkMode} />
-      {/* <Skills />
+      <Technologies />
       <Projects />
+      {/* {
       <About />
       <Contact />
       <Footer />
