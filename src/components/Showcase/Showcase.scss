@@ -114,17 +114,17 @@
 
 .resume-btn {
   cursor: pointer;
-  border-radius: 30px;
-  color: blue;
+  border-radius: 10px;
+  color: grey;
   transition: background 0.5s, color 0.5s;
-  border: 3px solid blue;
+  border: 3px solid grey;
   padding: 10px 25px;
   font-weight: 700;
   z-index: 10;
 
   &:hover {
-    background: darken(blue, 10%);
-    color: white;
+    border: 3px solid black !important;
+    color: black !important;
   }
 }
 

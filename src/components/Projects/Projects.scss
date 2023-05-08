@@ -11,24 +11,28 @@
       text-align: center;
       position: relative;
       font-size: 3rem;
-
-      &:after {
-        position: absolute;
-        content: "";
-        bottom: -20px;
-        left: 50%;
-        height: 5px;
-        width: 50px;
-        transform: translate(-50%, 0);
-        background: #00abff;
-        border-radius: 30px;
-      }
     }
 
     .switch-btn-container {
       display: flex;
       justify-content: space-around;
-      border: 4px solid #00abff;
+      border: 4px solid
+          radial-gradient(
+            ellipse farthest-corner at right bottom,
+            #fedb37 0%,
+            #fdb931 8%,
+            #9f7928 30%,
+            #8a6e2f 40%,
+            transparent 80%
+          ),
+        radial-gradient(
+          ellipse farthest-corner at left top,
+          #ffffff 0%,
+          #ffffac 8%,
+          #d1b464 25%,
+          #5d4a1f 62.5%,
+          #5d4a1f 100%
+        );
       border-radius: 30px;
       width: 250px;
       background: grey;
@@ -38,12 +42,43 @@
 
     .btn {
       padding: 10px 10px;
-      border: 5px solid #00abff;
+      border: 5px solid
+          radial-gradient(
+            ellipse farthest-corner at right bottom,
+            #fedb37 0%,
+            #fdb931 8%,
+            #9f7928 30%,
+            #8a6e2f 40%,
+            transparent 80%
+          ),
+        radial-gradient(
+          ellipse farthest-corner at left top,
+          #ffffff 0%,
+          #ffffac 8%,
+          #d1b464 25%,
+          #5d4a1f 62.5%,
+          #5d4a1f 100%
+        );
       border-radius: 50px;
     }
 
     .active {
-      background: #00abff;
+      background: radial-gradient(
+          ellipse farthest-corner at right bottom,
+          #fedb37 0%,
+          #fdb931 8%,
+          #9f7928 30%,
+          #8a6e2f 40%,
+          transparent 80%
+        ),
+        radial-gradient(
+          ellipse farthest-corner at left top,
+          #ffffff 0%,
+          #ffffac 8%,
+          #d1b464 25%,
+          #5d4a1f 62.5%,
+          #5d4a1f 100%
+        );
     }
   }
 }
@@ -94,17 +129,55 @@
 
     .code-btn {
       margin-right: 15px;
-      background: #454545;
+      background: radial-gradient(
+          ellipse farthest-corner at right bottom,
+          #fedb37 0%,
+          #fdb931 8%,
+          #9f7928 30%,
+          #8a6e2f 40%,
+          transparent 80%
+        ),
+        radial-gradient(
+          ellipse farthest-corner at left top,
+          #ffffff 0%,
+          #ffffac 8%,
+          #d1b464 25%,
+          #5d4a1f 62.5%,
+          #5d4a1f 100%
+        );
       transition: background 0.5s;
       &:hover {
-        background: darken(#454545, 10%);
+        background: linear-gradient(
+          -180deg,
+          rgba(255, 255, 255, 0.5) 0%,
+          rgba(0, 0, 0, 0.5) 100%
+        );
       }
     }
     .live-btn {
-      background: #00abff;
+      background: radial-gradient(
+          ellipse farthest-corner at right bottom,
+          #fedb37 0%,
+          #fdb931 8%,
+          #9f7928 30%,
+          #8a6e2f 40%,
+          transparent 80%
+        ),
+        radial-gradient(
+          ellipse farthest-corner at left top,
+          #ffffff 0%,
+          #ffffac 8%,
+          #d1b464 25%,
+          #5d4a1f 62.5%,
+          #5d4a1f 100%
+        );
       transition: background 0.5s;
       &:hover {
-        background: darken(#00abff, 10%);
+        background: linear-gradient(
+          -180deg,
+          rgba(255, 255, 255, 0.5) 0%,
+          rgba(0, 0, 0, 0.5) 100%
+        );
       }
     }
   }
@@ -136,14 +209,22 @@
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 5px;
+
     p {
       margin: 0 5px 5px 5px;
       padding: 7px 13px;
-      color: #00abff;
+      color: grey;
       font-size: 0.9rem;
       font-weight: 700;
-      border-radius: 40px;
-      border: 2px solid #00abff;
+      border-radius: 10px;
+      border: 2px solid grey;
+
+      &:hover {
+        background: #1b262c;
+        border: 2px solid white;
+        color: white;
+        transform: scale(1.04);
+      }
     }
   }
   .flex-right {

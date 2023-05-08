@@ -86,7 +86,7 @@ const Header = ({ menuToggle, menuHandler, darkModeToogle, isDarkMode }) => {
           <nav className="navbar wow fadeIn">
             <Link
               activeClass="active"
-              to="about"
+              to="About"
               spy={true}
               smooth={true}
               offset={-70}

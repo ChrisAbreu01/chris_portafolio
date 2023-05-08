@@ -1,144 +1,52 @@
-import spot_img from "../images/project-react.png";
-import iflix from "../images/project-react.png";
-import aaron from "../images/project-react.png";
-import natours from "../images/project-react.png";
-import oberlo from "../images/project-react.png";
-import pc_tech from "../images/project-react.png";
-import electrum from "../images/project-react.png";
-import iflixV3 from "../images/project-react.png";
-import businessClass from "../images/project-react.png";
-
-let serverIp = "104.131.1.91";
+import practicumLibrary from "../images/practicumlibrary.png";
+import practicumCoffeeShop from "../images/practicumcoffeeshop.png";
+import aroundTheUS from "../images/aroundtheus.png";
+import whatToWear from "../images/project-react.png";
 
 const data = [
   {
     id: 1,
-    name: "what to wear",
-    image: businessClass,
-    production: true,
+    name: "What to wear",
+    image: whatToWear,
+    production: false,
     code: false,
-    live: `https://www.americanexpress.com/en-us/business/trends-and-insights/`,
+    live: `https://github.com/ChrisAbreu01/se_project_react`,
     description:
-      "Business Class from American Express provides a modern business education through insights, tips, and inspiration to help your business adapt to changing times.",
-    techs_used: [
-      "React",
-      "Redux",
-      "Sass",
-      "Webpack",
-      "Jest",
-      "CI/CD",
-      "Docker",
-    ],
+      "The What-to-Wear web app provides users with recommendations on what to wear based on the current weather conditions in their location.",
+    techs_used: ["React", "Redux", "Webpack", "Node.js", "GitHub"],
   },
   {
     id: 2,
-    name: "what to wear",
-    image: iflixV3,
+    name: "Around the US",
+    image: aroundTheUS,
     production: true,
-    code: "https://github.com/Kmonterohenriquez/iflix-v3",
-    live: `http://${serverIp}:5001/#/`,
+    code: "https://github.com/ChrisAbreu01/se_project_aroundtheus",
+    live: `https://chrisabreu01.github.io/se_project_aroundtheus/`,
     description:
-      "This a website which provide information about movies and series where users can watch their favorite movies and series trailers and save them into their favorite tv shows and movies sections.",
-    techs_used: ["React", "Redux", "Express", "Node", "Sass", "Webpack"],
+      "This is a project that showcases the hometowns of some of Practicum's tutors and personnel. They share some interesting information about the places they come from, share some of their culture, and pictures of their hometowns.",
+    techs_used: ["JavaScript", "HTML", "CSS", "NPM", "Webpack"],
   },
   {
     id: 3,
-    name: "what to wear",
-    production: false,
-    image: pc_tech,
-    code: "https://github.com/Kmonterohenriquez/PcTech",
-    live: `http://${serverIp}:4060/#/`,
+    name: "Practicum Coffee Shop",
+    production: true,
+    image: practicumCoffeeShop,
+    code: "https://github.com/ChrisAbreu01/web_project_2",
+    live: `https://chrisabreu01.github.io/web_project_2/`,
     description:
-      "Pc Tech is a company specialized in Computer Repairs and Services, We repair out of warranty laptops and Computer. It is a ecommerce website where users can buy most recent tech devices.",
-    techs_used: [
-      "React",
-      "Redux",
-      "Express",
-      "Node",
-      "Sass",
-      "PostgreSQL",
-      "Massive",
-      // 'Bcrypt',
-      "Heroku",
-      "AWS",
-    ],
+      "This is a versatile landing page that can be repurposed for a variety of businesses and applications.",
+    techs_used: ["HTML", "CSS", "BEM"],
   },
   {
     id: 4,
-    name: "what to wear",
-    image: spot_img,
+    name: "Practicum Library",
+    image: practicumLibrary,
     production: true,
-    code: "https://github.com/Kmonterohenriquez/Spot",
-    live: "https://spot-agency.netlify.com/",
+    code: "https://github.com/ChrisAbreu01/web_project_1",
+    live: "https://chrisabreu01.github.io/web_project_1/",
     description:
-      "Spot is an Agency website where clients can get information about awesome services of certain company. Attractive and clean design is what makes this website unique to have a great experience.",
-    techs_used: ["React", "Sass", "React Router"],
-  },
-  {
-    id: 5,
-    name: "what to wear",
-    image: oberlo,
-    production: true,
-    code: "https://github.com/Kmonterohenriquez/housing",
-    live: "https://oberlo.netlify.com/",
-    description:
-      "Whether you’re looking to buy your home locally or expand your real estate globally, commercially, or into the luxury realm -- Oberlo can help. And with franchises and agents available in all 50 states, you’re sure to find one that specializes in your city and specific needs.",
-    techs_used: ["React", "Sass", "Grid", "Flex-box"],
-  },
-  {
-    id: 6,
-    name: "what to wear",
-    image: electrum,
-    production: true,
-    code: "https://github.com/Kmonterohenriquez/insurance-app",
-    live: "https://insurance-demo.netlify.app/",
-    description:
-      "Evaluate business or individual customers’ needs and financial status and propose protection plans that meet their criteria. Work with clients to deliver risk management strategies that fit their risk profiles.",
-    techs_used: ["React", "Sass", "Grid", "Flex-box"],
-  },
-  {
-    id: 7,
-    name: "what to wear",
-    image: natours,
-    production: true,
-    code: "https://github.com/Kmonterohenriquez/Natours",
-    live: "https://gonatours.netlify.com/",
-    description:
-      "Connect to the world with small group adventure travel. This an informative website about tours with incredible discount on prices. Tour & Experience Incredible Destinations is our main goal to every client we get.",
-    techs_used: ["HTML5", "CSS"],
-  },
-  {
-    id: 8,
-    name: "what to wear",
-    image: aaron,
-    production: true,
-    code: "https://github.com/Kmonterohenriquez/ecommerce-website",
-    live: `http://${serverIp}:4010/#/`,
-    description:
-      "E-commerce website where clients can get sophisticated and the most elegant clothes such as suit, ties, pants and shoes. This was made for men who love to wear and look elegant, simple and attractive to others.",
-    techs_used: ["React", "Express", "Node", "Sass", "PostgreSQL"],
-  },
-  {
-    id: 9,
-    name: "what to wear",
-    image: iflix,
-    production: true,
-    code: "https://github.com/Kmonterohenriquez/Movie-App",
-    live: `http://${serverIp}:4000/#/`,
-    description:
-      "This a website which provide information about movies and series where users can watch their favorite movies and series trailers and save them into their favorite tv shows and movies sections.",
-    techs_used: [
-      "React",
-      "Redux",
-      "Express",
-      "Node",
-      "Sass",
-      "PostgreSQL",
-      "Massive",
-      // "Bcrypt",
-      "Heroku",
-      "AWS",
-    ],
+      "This is a versatile landing page that can be repurposed for a variety of businesses and applications.",
+    techs_used: ["HTML", "CSS", "BEM"],
   },
 ];
 

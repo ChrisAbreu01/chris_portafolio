@@ -9,6 +9,7 @@ import Showcase from "../Showcase/Showcase";
 // import About from "./Components/About";
 import Technologies from "../Technologies/Tecnologies";
 import Projects from "../Projects/Projects";
+import About from "../About/About";
 // import Projects from "./Components/Projects";
 // import Contact from "./Components/Contact";
 // import Footer from "./Components/Footer";
@@ -41,6 +42,7 @@ const App = () => {
       <Showcase isDarkMode={isDarkMode} />
       <Technologies />
       <Projects />
+      <About />
       {/* {
       <About />
       <Contact />

@@ -36,6 +36,11 @@ const Showcase = ({ isDarkMode }) => {
             duration={500}
             className="wow fadeIn resume-btn"
             data-wow-delay=".5s"
+            style={
+              isDarkMode
+                ? { border: "3px solid white", color: "white" }
+                : { border: "3px solid grey" }
+            }
           >
             Download Resume
           </a>
