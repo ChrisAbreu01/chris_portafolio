@@ -86,6 +86,16 @@ const Header = ({ menuToggle, menuHandler, darkModeToogle, isDarkMode }) => {
           <nav className="navbar wow fadeIn">
             <Link
               activeClass="active"
+              to="project"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              Projects
+            </Link>
+            <Link
+              activeClass="active"
               to="About"
               spy={true}
               smooth={true}
@@ -93,16 +103,6 @@ const Header = ({ menuToggle, menuHandler, darkModeToogle, isDarkMode }) => {
               duration={500}
             >
               About
-            </Link>
-            <Link
-              activeClass="active"
-              to="project"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-            >
-              Project
             </Link>
             <Link
               activeClass="active"
