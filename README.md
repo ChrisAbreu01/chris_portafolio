@@ -38,8 +38,8 @@ This project is licensed under the [MIT License](LICENSE). Feel free to use the 
 
 If you have any questions or would like to connect with me, you can reach me via:
 
-- Email: [your.email@example.com](mailto:chrisabreu01@gmail.com)
-- LinkedIn: [Your Name](https://www.linkedin.com/in/christopher-abreu-386b3a237/)
+- Email: [chrisabreu01@gmail.com](mailto:chrisabreu01@gmail.com)
+- LinkedIn: [Christopher Abreu](https://www.linkedin.com/in/christopher-abreu-386b3a237/)
 
 Thank you for visiting my portfolio repository!
 
