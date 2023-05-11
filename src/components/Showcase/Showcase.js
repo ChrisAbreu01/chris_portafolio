@@ -1,6 +1,5 @@
 import React from "react";
 import "./Showcase.scss";
-import background from "../../images/showcasebackground.png";
 import Wave from "react-wavify";
 
 const Showcase = ({ isDarkMode }) => {
@@ -8,7 +7,6 @@ const Showcase = ({ isDarkMode }) => {
   return (
     <div className="Showcase">
       <div className="Showcase-container ">
-        {/* <img src={background} alt="clouds" className="showcase-background" /> */}
         <div className="Showcase-waves">
           <Wave
             fill="#1E90FF"
