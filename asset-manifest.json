@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/chris_portafolio/static/css/main.7c98254e.css",
+    "main.js": "/chris_portafolio/static/js/main.7d85c68e.js",
+    "static/js/787.21234790.chunk.js": "/chris_portafolio/static/js/787.21234790.chunk.js",
+    "static/media/aroundtheus.png": "/chris_portafolio/static/media/aroundtheus.6a97808e3e3abbf069b2.png",
+    "static/media/me.jpeg": "/chris_portafolio/static/media/me.94f28cbac003331d42a9.jpeg",
+    "static/media/practicumcoffeeshop.png": "/chris_portafolio/static/media/practicumcoffeeshop.ac191406866543330018.png",
+    "static/media/showcasebackground.png": "/chris_portafolio/static/media/showcasebackground.fc79a7e6d02a1d6b94e9.png",
+    "static/media/practicumlibrary.png": "/chris_portafolio/static/media/practicumlibrary.c161ae3f9e339fa870b8.png",
+    "static/media/project-react.png": "/chris_portafolio/static/media/project-react.7a1ca55074d7e8956bda.png",
+    "static/media/logo2longinverted.png": "/chris_portafolio/static/media/logo2longinverted.1caf31647bdbad5d183c.png",
+    "static/media/logo2long.png": "/chris_portafolio/static/media/logo2long.bedde3392053e34eb62c.png",
+    "index.html": "/chris_portafolio/index.html",
+    "main.7c98254e.css.map": "/chris_portafolio/static/css/main.7c98254e.css.map",
+    "main.7d85c68e.js.map": "/chris_portafolio/static/js/main.7d85c68e.js.map",
+    "787.21234790.chunk.js.map": "/chris_portafolio/static/js/787.21234790.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7c98254e.css",
+    "static/js/main.7d85c68e.js"
+  ]
+}
