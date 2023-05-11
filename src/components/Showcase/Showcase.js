@@ -1,13 +1,74 @@
 import React from "react";
 import "./Showcase.scss";
 import background from "../../images/showcasebackground.png";
+import Wave from "react-wavify";
 
 const Showcase = ({ isDarkMode }) => {
   const shouldUseWhiteGradiantBg = isDarkMode ? "useWhiteGradiantBg" : "";
   return (
     <div className="Showcase">
       <div className="Showcase-container ">
-        <img src={background} alt="clouds" className="showcase-background" />
+        {/* <img src={background} alt="clouds" className="showcase-background" /> */}
+        <div className="Showcase-waves">
+          <Wave
+            fill="#1E90FF"
+            paused={false}
+            options={{
+              height: 80,
+              amplitude: 40,
+              speed: 0.2,
+              points: 4,
+            }}
+          />
+        </div>
+        <div className="Showcase-waves">
+          <Wave
+            fill="#187DE9"
+            paused={false}
+            options={{
+              height: 80,
+              amplitude: 40,
+              speed: 0.3,
+              points: 4,
+            }}
+          />
+        </div>
+        <div className="Showcase-waves">
+          <Wave
+            fill="#126AD2"
+            paused={false}
+            options={{
+              height: 80,
+              amplitude: 40,
+              speed: 0.4,
+              points: 4,
+            }}
+          />
+        </div>
+        <div className="Showcase-waves">
+          <Wave
+            fill="#0C56BC"
+            paused={false}
+            options={{
+              height: 80,
+              amplitude: 40,
+              speed: 0.4,
+              points: 4,
+            }}
+          />
+        </div>
+        <div className="Showcase-waves">
+          <Wave
+            fill="#0643A5"
+            paused={false}
+            options={{
+              height: 80,
+              amplitude: 40,
+              speed: 0.4,
+              points: 4,
+            }}
+          />
+        </div>
         <div className="container Showcase-info">
           <h2 className="wow fadeInDown" data-wow-delay="1.2s">
             Full-Stack Developer

@@ -6,14 +6,11 @@ import WOW from "wowjs";
 // Components
 import Header from "../Header/Header";
 import Showcase from "../Showcase/Showcase";
-// import About from "./Components/About";
 import Technologies from "../Technologies/Tecnologies";
 import Projects from "../Projects/Projects";
 import About from "../About/About";
-// import Projects from "./Components/Projects";
-// import Contact from "./Components/Contact";
-// import Footer from "./Components/Footer";
-// import ContactBar from "./Components/ContactBar";
+import Contact from "../Contact/Contact";
+import Footer from "../Footer/Footer";
 
 const App = () => {
   useEffect(() => {
@@ -43,11 +40,8 @@ const App = () => {
       <Technologies />
       <Projects />
       <About />
-      {/* {
-      <About />
       <Contact />
       <Footer />
-      <ContactBar /> */}
     </div>
   );
 };
