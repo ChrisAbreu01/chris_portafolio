@@ -88,7 +88,7 @@ const Showcase = ({ isDarkMode }) => {
             and I enjoy sharing my expertise with others to achieve their goals.
           </p>
           <a
-            href="https://drive.google.com/file/d/1NOGAZwmB3uww6ZPW5IbAFzG_oospLrZ7/view?usp=sharing"
+            href="https://drive.google.com/file/d/1nk90OOWMQe_vDxttkOBeIE_5GtA07ORj/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             offset={-70}
