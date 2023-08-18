@@ -22,7 +22,7 @@ const data = [
     image: whatToWear,
     production: true,
     code: `https://github.com/ChrisAbreu01/se_project_react`,
-    live: `https://chrisabreu01.github.io/se_project_react/#/`,
+    live: `	https://www.wtw.twilightparadox.com`,
     description:
       "The What-to-Wear web app provides users with recommendations on what to wear based on the current weather conditions in their location.",
     techs_used: ["React", "Redux", "Webpack", "Node.js", "GitHub"],
