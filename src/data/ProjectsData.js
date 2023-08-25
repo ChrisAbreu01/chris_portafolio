@@ -14,7 +14,7 @@ const data = [
     live: `https://www.edtonomy.com/`,
     description:
       "The EdTonomy platform is a software platform that is designed to help learners take control of their own learning. It provides a variety of features that support personalization, flexibility, mastery-based learning, and social learning.",
-    techs_used: ["React", "Redux", "Node.js", "HTML", "CSS", "BEM"],
+    techs_used: ["React", "Redux", "Node.js", "HTML", "Tailwind"],
   },
   {
     id: 2,
