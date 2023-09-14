@@ -2,7 +2,7 @@
   "name": "chris_portafolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ChrisAbreu01.github.io/chris_portafolio",
+  "homepage": "https://christopherabreu.netlify.app/",
   
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
