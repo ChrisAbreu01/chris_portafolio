@@ -1,5 +1,4 @@
 import practicumLibrary from "../images/practicumlibrary.png";
-import practicumCoffeeShop from "../images/practicumcoffeeshop.png";
 import edtonomy from "../images/edtonomy.png";
 import aroundTheUS from "../images/aroundtheus.png";
 import whatToWear from "../images/project-react.png";
