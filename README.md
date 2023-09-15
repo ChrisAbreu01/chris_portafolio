@@ -8,7 +8,7 @@ This portfolio showcases my skills, projects, and achievements in web developmen
 
 ## Live Demo
 
-You can visit my portfolio website by clicking [here](https://chrisabreu01.github.io/chris_portafolio).
+You can visit my portfolio website by clicking [here](https://christopherabreu.netlify.app/).
 
 ## Features
 
