@@ -65,7 +65,7 @@ const Header = ({ menuToggle, menuHandler, darkModeToogle, isDarkMode }) => {
               </li>
               <li>
                 <a
-                  href="https://drive.google.com/file/d/1_kat_-DuTi2IQJpIm2EyR3PQ8mfWOQkp/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1KOmGu-j5WknSuWNmdhRiqPkJRfHUS2OD/view?usp=sharing"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="resume-btn"
