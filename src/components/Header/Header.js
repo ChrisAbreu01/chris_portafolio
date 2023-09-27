@@ -64,7 +64,7 @@ const Header = ({ menuToggle, menuHandler, darkModeToogle, isDarkMode }) => {
                 </Link>
               </li>
               <li>
-                <a
+                {/* <a
                   href="https://drive.google.com/file/d/1KOmGu-j5WknSuWNmdhRiqPkJRfHUS2OD/view?usp=sharing"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -72,7 +72,7 @@ const Header = ({ menuToggle, menuHandler, darkModeToogle, isDarkMode }) => {
                   onClick={() => menuHandler()}
                 >
                   Resume
-                </a>
+                </a> */}
               </li>
               <li>
                 <i

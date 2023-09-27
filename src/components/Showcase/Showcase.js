@@ -87,7 +87,7 @@ const Showcase = ({ isDarkMode }) => {
             passion for technology drives me to constantly expand my knowledge,
             and I enjoy sharing my expertise with others to achieve their goals.
           </p>
-          <a
+          {/* <a
             href="https://drive.google.com/file/d/1KOmGu-j5WknSuWNmdhRiqPkJRfHUS2OD/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
@@ -102,7 +102,7 @@ const Showcase = ({ isDarkMode }) => {
             }
           >
             Download Resume
-          </a>
+          </a> */}
           <div id="showcaseFigure"></div>
         </div>
       </div>
